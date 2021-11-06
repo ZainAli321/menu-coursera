@@ -12,7 +12,7 @@ h1 {
 
 section {
   background-color: grey;
-  /*border: 2px solid black;*/
+  border: 2px solid black;
   float: left;
   margin-bottom: 5px;
   text-align: center;
@@ -24,7 +24,7 @@ h2 {
   clear: both;
   width: 40%;
   text-align: center;
-  /*border: 2px solid black;*/
+  border: 1px solid black;
   overflow: hidden;
 }
 .container {
@@ -50,12 +50,6 @@ p {
 #shushi {
   background-color: #e3e344;
 }
-/*#section1 {
-  margin-right: 5px;
-}
-#section2 {
-  margin-right: 5px;
-}*/
 
 @media (min-width: 992px) {
   #section1 {
