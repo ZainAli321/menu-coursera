@@ -7,17 +7,15 @@
 
 h1 {
   text-align: center;
-  margin: 20px;
+  margin: 50px;
 }
-.container {
-  box-sizing: border-box;
-  margin: 15px;
-}
+
 section {
   background-color: grey;
-  border: 2px solid black;
+  /*border: 2px solid black;*/
   float: left;
   margin-bottom: 5px;
+  text-align: center;
 }
 
 h2 {
@@ -26,7 +24,13 @@ h2 {
   clear: both;
   width: 40%;
   text-align: center;
-  border: 2px solid black;
+  /*border: 2px solid black;*/
+  overflow: hidden;
+}
+.container {
+  width: 95%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 p {
@@ -46,12 +50,12 @@ p {
 #shushi {
   background-color: #e3e344;
 }
-#section1 {
+/*#section1 {
   margin-right: 5px;
 }
 #section2 {
   margin-right: 5px;
-}
+}*/
 
 @media (min-width: 992px) {
   #section1 {
@@ -70,10 +74,9 @@ p {
   }
   #section2 {
     width: 50%;
-    clear: right;
   }
   #section3 {
-    width: 50%;
+    width: 100%;
   }
 }
 @media (max-width: 767px) {
@@ -85,5 +88,8 @@ p {
   }
   #section3 {
     width: 100%;
+  }
+  section {
+    float: center;
   }
 }
